@@ -1,0 +1,111 @@
+.add-item-container {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+
+.add-item-heading {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Roboto";
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.item-name-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.item {
+  font-size: 20px;
+  color: gray;
+  font-family: "Roboto";
+}
+
+.input-text {
+  border-bottom-width: 1px;
+  border-bottom-color: gray;
+  width: 100%;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.attachment-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.attachment-btn {
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.attach-para {
+  font-size: 10px;
+  color: gray;
+}
+
+.horizontal-line {
+  width: 100%;
+  color: #f0f8ff;
+}
+
+.default-section {
+  color: blue;
+  font-size: 16px;
+  font-family: "Roboto";
+  text-underline-position: blue;
+  text-decoration: underline;
+  text-decoration-line: 100%;
+}
+
+.assign-user-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.attachment {
+  font-size: 16px;
+  color: black;
+}
+
+.user-dropdown {
+  margin-left: 40px;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  width: 100%;
+}
+
+.input-field {
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom-color: #f0f8ff;
+  color: gray;
+  margin-bottom: 16px;
+}
+
+.button {
+  margin-right: 10px;
+  background-color: white;
+  border-width: 1px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-family: "Roboto";
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+
+.create {
+  background-color: green;
+  color: white;
+}
